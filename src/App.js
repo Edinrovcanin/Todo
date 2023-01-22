@@ -4,6 +4,8 @@ import { Button, Card, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+export { firebaseConfig } from "./fire"
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyAhanTx-HBnbmxmvCtd_1teZVlqG9Hsm5g",
