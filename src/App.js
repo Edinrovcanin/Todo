@@ -4,19 +4,7 @@ import { Button, Card, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-export { firebaseConfig } from "./fire"
-
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAhanTx-HBnbmxmvCtd_1teZVlqG9Hsm5g",
-  authDomain: "deni-b0cd0.firebaseapp.com",
-  databaseURL: "https://deni-b0cd0-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "deni-b0cd0",
-  storageBucket: "deni-b0cd0.appspot.com",
-  messagingSenderId: "605459568909",
-  appId: "1:605459568909:web:616f07f2342b75e15eb844",
-  measurementId: "G-9M7KTT18TZ"
-};
+import { firebaseConfig } from "./config"
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
